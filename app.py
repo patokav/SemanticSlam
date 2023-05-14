@@ -377,11 +377,11 @@ try:
                 xstart[i],xend[i],ystart[i],yend[i])
 
             #kinfu(kf,depth_image)
-            st=time.time()
-            kinfu_new(kf,depth_mask,depth_image)
+                st=time.time()
+                kinfu_new(kf,depth_mask,depth_image)
 
             end=time.time()
-        print('execution time',end-st)
+        #print('execution time',end-st)
 
 
         
